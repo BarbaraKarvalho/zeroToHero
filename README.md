@@ -11,10 +11,10 @@
    Dica: Use o resto da divisão por 2 para saber se é par
 
 
-3. Faça um progrma que peça 3 notas de um aluno e mostra sua média.
+3. Faça um programa que peça 3 notas de um aluno e mostra sua média.
 
 
-4. Faça um progrma que converte metros para centímetros.
+4. Faça um programa que converte metros para centímetros.
 
 
 5. Faça um programa que calcula a área de um quadrado, em seguida mostra o dobro desta área.
@@ -29,7 +29,6 @@
 8. Faça um programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês, sabendo-se que são descontados 11% para o Imposto de Renda, 8% para o INSS e 5% para o sindicato, faça um programa que nos dê as seguintes mensagens:
 calcule os descontos e o salário líquido, conforme a tabela abaixo:
 
-   
 + Salário Bruto : R$
 - IR (11%) : R$
 - INSS (8%) : R$
