@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class exercise05 {
     public static void main(String[] args) {
         double areaQuadrado, ladoQuadrado;
-        //A=l^2 or A=b*h
+        //A=l^2 or A=b*h;
 
         Scanner scan = new Scanner(System.in);
 
