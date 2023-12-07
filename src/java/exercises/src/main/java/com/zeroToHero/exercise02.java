@@ -9,7 +9,6 @@ public class exercise02 {
         System.out.println("Input the number: ");
         Scanner scan = new Scanner(System.in);
         number = scan.nextDouble();
-        //number = scan.nextInt();
 
         if (number % 2 == 0) {
             System.out.println("The number " + number + " is even");
