@@ -5,6 +5,5 @@ public class exercise08 {
         double salarioBruto, salarioLiquido;
         int IR, INSS, sindicato;
 
-       // teste
     }
 }
