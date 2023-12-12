@@ -2,7 +2,6 @@
 
 ### Desenvolver na linguagem de preferência ;)
 
-
 1. Escreva um programa que pede o raio de um círculo, e em seguida exiba o perímetro e área do círculo.
    Dica: Use o valor de PI
 
