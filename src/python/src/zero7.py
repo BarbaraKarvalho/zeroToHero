@@ -1,3 +1,5 @@
+#Programa que ler peso e mostra o excesso 
+
 peso = float(input("Digite o peso : "))
 excesso = peso - 50
 multa = 4.00

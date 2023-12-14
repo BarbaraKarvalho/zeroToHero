@@ -1,3 +1,5 @@
+#Programa que ler salario ganho por hora 
+
 hora = float(input("Quanto você ganha por hora ?"))
 mes = float(input("Quantas horas ao mês?"))
 

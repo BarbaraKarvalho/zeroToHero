@@ -1,3 +1,4 @@
+#Calculo da area e do perimetro 
 
 raio = float(input("Digite o raio :"))
 area = round((3.14 *raio),2)

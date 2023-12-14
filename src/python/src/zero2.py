@@ -1,3 +1,4 @@
+#Programa que diz se e IMPA ou PAR
 num = int(input("Digite um número:"))
 
 if num % 2 == 0:

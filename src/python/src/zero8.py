@@ -1,3 +1,5 @@
+#Calculo do salario e descontos 
+
 hora = float(input("Quanto você ganha por hora ?"))
 mes = float(input("Quantas horas ao mês?"))
 

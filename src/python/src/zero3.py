@@ -1,3 +1,4 @@
+#Calculo da nota de um aluno
 
 nota1 = float(input("Digite sua primeira nota :"))
 nota2 = float(input("Digite sua segunda nota :"))
