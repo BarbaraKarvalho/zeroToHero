@@ -11,14 +11,14 @@ sindicato = salario * 5/100
 desconto = INSS + sindicato
 salario_liqui = salario - desconto
 
-if salario < 2112:
+if salario < 2112.00:
     print ("\n Salario Bruto: R$",salario,"\n")
     print ("IR : Zero ")
     print ("INSS (8%) : R$",INSS)
     print ("Sindicato ( 5%) : R$",sindicato,"\n")
     print ("Salario liquido :R$",salario_liqui)
 
-elif salario >= 2112 and salario <= 2826:
+elif salario >= 2112.01 and salario <= 2826.65:
     
     desc = salario * IR[0]/100
 
@@ -28,7 +28,7 @@ elif salario >= 2112 and salario <= 2826:
     print ("Sindicato ( 5%) : R$",sindicato,"\n")
     print ("Salario liquido :R$",salario_liqui - desc)
 
-elif salario >= 2826 and salario <= 3751:
+elif salario >= 2826.66 and salario <= 3751.05:
 
     desc = salario * IR[1]/100
 
@@ -38,7 +38,7 @@ elif salario >= 2826 and salario <= 3751:
     print ("Sindicato ( 5%) : R$",sindicato,"\n")
     print ("Salario liquido :R$",salario_liqui - desc)
 
-elif salario >= 3751 and salario <= 4664:
+elif salario >= 3751.06 and salario <= 4664.68:
 
     desc = salario * IR[2]/100
 
