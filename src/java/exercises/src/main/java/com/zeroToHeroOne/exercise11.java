@@ -7,7 +7,7 @@ public class exercise11 {
 
         Scanner scan = new Scanner(System.in);
 
-        String nome = "";
+        String nome;
         double nota1, nota2, nota3, nota4, mediaNota;
         int menu;
         boolean novaConsulta = true;

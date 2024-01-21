@@ -6,7 +6,7 @@ public class exercise06 {
     private static final float reajuste = 0.05f;
     public static void main(String[] args){
 
-        double valor, total;
+        double valor, total, totalFinal;
         int menu;
         boolean novaConsulta = true;
 
@@ -16,8 +16,10 @@ public class exercise06 {
             System.out.println("Digite um valor: ");
             valor = scan.nextDouble();
 
-            total = (valor + reajuste);
-            System.out.printf("O valor com reajuste é: %.2f\n", total);
+            total = (valor * reajuste);
+            System.out.printf("O valor do reajuste é: %.2f\n", total);
+            totalFinal = (total + valor);
+            System.out.printf("O valor com reajuste é: %.2f\n", totalFinal);
 
             System.out.println("Quer verificar outro valor?");
             System.out.println("1 - Sim");
