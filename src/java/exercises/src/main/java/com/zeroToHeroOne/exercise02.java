@@ -14,7 +14,9 @@ public class exercise02 {
             System.out.println("Insira um número: ");
             numero = scan.nextDouble();
 
-            if (numero % 2 == 0 && numero > 0) {
+            if (numero == 0){
+                System.out.println("Zero é número neutro");
+            } else if (numero % 2 == 0 && numero > 0) {
                 System.out.println("O seu número é par e positivo");
             } else if (numero % 2 == 0 && numero < 0) {
                 System.out.println("O seu número é par e negativo");
@@ -23,14 +25,15 @@ public class exercise02 {
             } else
                 System.out.println("O seu número é impar e negativo");
 
+            System.out.println("Deseja fazer nova consulta: ");
             System.out.println("1 - Sim");
             System.out.println("2 - Não");
             menu = scan.nextInt();
 
             if(menu == 2){
                 novaConsulta = false;
-                scan.close();
             }
         }
+        scan.close();
     }
 }
