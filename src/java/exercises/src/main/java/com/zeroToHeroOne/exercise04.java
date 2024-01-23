@@ -19,6 +19,7 @@ public class exercise04 {
             sucessor = numero + 1;
             System.out.println(sucessor + " é o número sucessor");
 
+            System.out.println(" ");
             System.out.println("Deseja digitar outro número?");
             System.out.println("1 - Sim");
             System.out.println("2 - Não");
@@ -27,7 +28,7 @@ public class exercise04 {
             if(menu == 2){
                 digitarNovamente = false;
             }
-            scan.close();
         }
+        scan.close();
     }
 }

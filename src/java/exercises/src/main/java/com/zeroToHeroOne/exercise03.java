@@ -22,10 +22,12 @@ public class exercise03 {
                 C = (A * B);
                 System.out.println("A multiplicação dos números diferentes é: " + C);
             }
-                System.out.println("Quer fazer uma nova consulta?");
-                System.out.println("1 - Sim");
-                System.out.println("2 - Não");
-                menu = scan.nextInt();
+
+            System.out.println("");
+            System.out.println("Quer fazer uma nova consulta?");
+            System.out.println("1 - Sim");
+            System.out.println("2 - Não");
+            menu = scan.nextInt();
 
                 if(menu == 2)
                     novaConsulta = false;
