@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class exercise08 {
     public static void main(String[] args) {
+        //usuario - Quantos números que ele vai informar
+        //depois aplica a regra
+        //Pega o primeiro item do array comparar com todos
 
     int a, b, c;
     int menu;
@@ -50,6 +53,6 @@ public class exercise08 {
                 novaConsulta = false;
             }
         }
-    scan.close();
+        scan.close();
     }
 }

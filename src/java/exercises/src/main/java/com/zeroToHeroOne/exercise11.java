@@ -32,7 +32,7 @@ public class exercise11 {
                 System.out.printf("A sua média é %.2f\n", mediaNota);
                 System.out.println("Você foi aprovado! Parabéns!!!");
 
-            } else if (mediaNota <= 6) {
+            } else if (mediaNota < 7) {
                 System.out.println("Aluna(o): " + nome);
                 System.out.printf("A sua média é %.2f\n", mediaNota);
                 System.out.println("Você foi reprovado!");
