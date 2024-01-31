@@ -3,10 +3,11 @@ package com.zeroToHeroOne;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class exercise08_1 {
+public class exercise08_2 {
     public static void main(String[] args) {
+
         //TODO:
-        //COM DEFINIÇÃO DA QUANTIDADE QUE O USUÁRIO PODE INSERIR
+        //SEM DEFINIR A QUANTIDADE QUE O USUÁRIO INSERIR DE NÚMEROS
         //usuario - Quantos números que ele vai informar
         //depois aplica a regra
         //Pega o primeiro item do array comparar com todos
@@ -16,22 +17,20 @@ public class exercise08_1 {
         //Bubble Sort: uma escolha eficaz para pequenas listas
         //Ele funciona comparando e trocando elementos adjacentes até que a lista esteja ordenada.
 
-        int[] valor = new int[4];
-        System.out.println("Digite o primeiro número inteiro:");
-        valor[0] = scan.nextInt();
-        System.out.println("Digite o segundo número inteiro:");
-        valor[1] = scan.nextInt();
-        System.out.println("Digite o terceiro número inteiro:");
-        valor[2] = scan.nextInt();
-        System.out.println("Digite o quarto número inteiro:");
-        valor[3] = scan.nextInt();
+        int quantidade = 0;
+        System.out.println("Digite quantos numeros quer informar?");
+        quantidade = scan.nextInt();
 
+        int[] valor = new int[quantidade];
+        for(int a = 0; a < valor.length; a++){
+            System.out.println("Digite o primeiro número inteiro:");
+            valor[a] = scan.nextInt();
+        }
         scan.close();
         boolean flag; // Flag será usada para indicar se foi feita uma troca
 
         // loop while quando um loop não pode ser executado em todos
         // um do-while loop quando o loop é executado pelo menos uma vez.
-
         do{
             //A cada interação é marcado como se não houvesse ainda troca
             flag = false;
