@@ -1,6 +1,5 @@
 package com.zeroToHeroOne;
 
-
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -15,8 +14,18 @@ public class exercise08_1 {
 
         //Bubble Sort: uma escolha eficaz para pequenas listas
         //Ele funciona comparando e trocando elementos adjacentes até que a lista esteja ordenada.
-        int[] valor = new int[4];
 
+        //int[] valor = new int[4];
+        int quantidade = 0;
+        System.out.println("Digite quantos numeros quer informar?");
+        quantidade = scan.nextInt();
+
+        int[] valor = new int[quantidade];
+        for(int a = 0; a < valor.length; a++){
+            System.out.println("Digite o primeiro número inteiro:");
+            valor[a] = scan.nextInt();
+        }
+        // esse que define a quantidade
         System.out.println("Digite o primeiro número inteiro:");
         valor[0] = scan.nextInt();
         System.out.println("Digite o segundo número inteiro:");
@@ -41,7 +50,8 @@ public class exercise08_1 {
             for (int i = 0; i < valor.length - 1; i++) {
 
                 //verifica se os elementos estão na ordem certa
-                if (valor[i] > valor[i + 1]) {
+                //Quem verifica se a posição atual é maior ou menor
+                if (valor[i] < valor[i + 1]) {
 
                     //Caso não estejam ordenados tem troca de lugar
                     //Variável para aux para troca dos valores

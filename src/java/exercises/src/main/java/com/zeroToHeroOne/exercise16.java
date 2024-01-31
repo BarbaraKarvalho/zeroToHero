@@ -21,8 +21,6 @@ public class exercise16 {
             z = scan.nextInt();
 
             if (x < y + z || y < x + z || z < y + x) {
-                System.out.println("É um Triângulo!");
-
                 if (x == y && x == z) {
                     System.out.println("Triângulo Equilatero, ou seja, os três lados são iguais");
 

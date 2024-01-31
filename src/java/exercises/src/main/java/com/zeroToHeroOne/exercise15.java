@@ -3,8 +3,6 @@ package com.zeroToHeroOne;
 import java.util.Scanner;
 public class exercise15 {
     private static final int ano = 365;
-    private static final int dias = 30;
-
     public static void main(String[] args) {
 
         int anoN, idade, converterAnoMeses, converterAnoDias;
@@ -17,7 +15,7 @@ public class exercise15 {
             anoN = scan.nextInt();
 
             idade = 2024 - anoN;
-            converterAnoMeses = idade * ano / dias;
+            converterAnoMeses = idade * 12; //meses ou pode fazer idade * 365 * 30
             converterAnoDias = idade * ano;
             System.out.println("Você tem " + idade + " anos, " + converterAnoMeses + " meses, " + converterAnoDias + " dias");
 

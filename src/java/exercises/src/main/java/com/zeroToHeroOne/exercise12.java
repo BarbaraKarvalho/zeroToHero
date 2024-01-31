@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class exercise12 {
 public static void main(String[] args) {
-
+    //TODO: Fazer com Switch
     double produto, desconto1, desconto2, descontoF1, descontoF2, valor3, valor4, valorF4, valorPF4;
     int opcao, parcelaOP4;
     int menu;
