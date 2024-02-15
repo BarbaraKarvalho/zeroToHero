@@ -56,6 +56,7 @@ public class exercise08_1 {
             }
         } while (flag); // Se hove uma troca o algorítimo continua.
 
+
         System.out.println("Os números digitados na ordem crescente são: " + Arrays.toString(valor));
     }
 }
